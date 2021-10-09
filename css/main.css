@@ -1,0 +1,258 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: rgb(29, 29, 29);
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    
+}
+a{
+    text-decoration: none;
+    color:#afafaf;
+    font-family: arial;
+}
+ul{
+    list-style: none;
+}
+.nav-menu{
+    background-color: #262a2d ;
+    width: 100%;
+    height: 586px;
+    transition: 800ms;
+ 
+   
+}
+
+.logo-spotify-open{
+    padding-left: 15px ;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.menu-principal{
+    padding-left: 20px;
+    height: 25%;
+    float: left;
+ 
+}
+.menu-principal li{
+    font-size: 16px;
+    padding: 5px;
+    font-family: arial;
+}
+.menu-secundario{
+    float: left;
+    width: 160px;
+    border-bottom:#555555 solid 2px ;
+    margin-left: 20px;
+}
+.menu-secundario li {
+    font-family: arial;
+    padding: 6px;
+    padding-bottom: 7px;
+    font-family: arial;
+}
+
+a:hover{
+
+    color: white;
+
+}
+ 
+.foot-player{
+    background-color: #2e3336 ;
+    width: 100%;
+    height: 72px;
+    float: left;
+
+}
+.nav-div{
+    width: 15.5%;
+    height: 70%;
+    float: left;
+}
+.div-music-icon{
+    padding-left: 6px;
+    padding-top: 6px;
+    padding-right: 6px;
+    float: left;
+    width: 60px;
+}
+
+.div-music-title{
+   padding-top: 19px;
+   float: left;
+   width: 26%;
+}
+.music-title a{
+    font-family: Arial;
+    font-size: 14px;
+    color:whitesmoke; 
+}
+.music-autors{
+    font-family: Arial;
+    font-size: 10px;
+}
+.music-title a:hover{
+    border-bottom: whitesmoke 1px solid;
+}
+.music-autors a:hover{
+    border-bottom: whitesmoke 1px solid;
+    color: whitesmoke;
+}
+.div-player-bt{
+    float: left;
+    padding-left: 220px;
+    width: 317px;
+}
+#bt-av{
+    background-color: transparent;
+    border:none;
+    transition: 0ms;
+    width: 14px;
+}
+#bt-av img{
+    width: 14px;
+}
+#pause{
+    background-color: transparent;
+    border:none;
+    padding-top: 5px;
+    display: none;
+    transition: 0ms;
+
+}
+#pause img{
+    width: 30px;
+}
+#play{
+  background-color: transparent;
+  border:none;
+  padding-top: 5px;
+}
+#play img{
+    width: 30px;
+}
+#bt-vo{
+    background-color: transparent;
+    border:none;
+    transition: 0ms;
+    width: 14px;
+}
+#bt-vo img{
+    width: 14px;
+}
+.div-player-bar{
+
+    float: left;
+    padding-left: 5px;    
+}
+progress{
+    width: 440px;
+    height: 4px;
+    background: gray;
+    transition: 800ms;
+    
+}
+progress::-webkit-progress-value {
+    background: white;
+    }
+#tempo_atual{
+    font-family: arial;
+    font-size: 12px;
+    color: #afafaf;
+    padding-right: 5px;
+}
+#tempo_restante{
+    font-family: arial;
+    font-size: 12px;
+    color: #afafaf;
+    padding-left: 5px;
+}
+.section{
+    float: left;
+    width: 84.5%;
+    height: 586px;
+    background-color: rgb(32, 32, 32);
+}
+.bt-config{
+    background-color: transparent;
+    border: none;
+    width: 26px;
+    float: right;
+    margin-right: 35px;
+    margin-top: 15px;
+}
+.bt-config img {
+    width: 25px;
+}
+.div-principal-section{
+    float: left;
+    margin-top: 70px;
+    margin-left: 70px;
+    width: 80%;
+}
+.titulo-div-section{
+    color: rgb(255, 255, 255);
+    font-family: arial;
+    font-size: 46px;
+    width: 100%;
+}
+.div-music-top-0{
+   background-color: rgb(39, 39, 39);
+   width: 400px;
+   float: left;
+   height: 85px;
+   margin-right: 10px;
+   margin-top: 10px;
+}
+.div-music-top-0 img {
+    width: 85px;
+}
+.div-music-top-1{
+    background-color: rgb(39, 39, 39);
+    width: 400px;
+    height: 85px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.div-music-top-1 img {
+    width: 85px;
+}
+.div-music-top-2{
+    background-color: rgb(39, 39, 39);
+    width: 400px;
+    height: 85px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.div-music-top-2 img {
+    width: 85px;
+    
+}
+.div-music-top-3{
+    background-color: rgb(39, 39, 39);
+    width: 400px;
+    float: left;
+    height: 85px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.div-music-top-3 img {
+    width: 85px;
+}
+@media screen and (min-height: 600px){
+    .nav-menu{
+        height: 553px;
+    }
+    .nav-div{
+        height: 553px;
+    }
+    .section{
+        height: 553px;
+    }
+}
