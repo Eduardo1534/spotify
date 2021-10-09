@@ -204,3 +204,11 @@ progress::-webkit-progress-value {
     padding-left: 50px;
     padding-bottom: 20px;
 }
+@media screen and (min-height: 600px){
+    .nav-menu{
+        height: 553px;
+    }
+    .nav-div{
+        height: 553px;
+    }
+}
