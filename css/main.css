@@ -285,7 +285,7 @@ progress::-webkit-progress-value {
         height: 553px;
     }
 }
-@media screen and (min-height: 1080px){
+@media screen and (min-height: 969px){
     .nav-menu{
         background-color: #262a2d ;
         width: 100%;
@@ -329,15 +329,15 @@ progress::-webkit-progress-value {
     }
     
     .nav-menu{
-        height: 980px;
+        height: 868px;
         width: 100%;
     }
     .nav-div{
         width: 9%;
-        height: 980px;
+        height: 868px;
     }
     .section{
-        height: 980px;
+        height: 868px;
     }
     .foot-player{
         background-color: #2e3336 ;
@@ -450,12 +450,6 @@ progress::-webkit-progress-value {
         font-size: 16px;
         color: #afafaf;
         padding-left: 5px;
-    }
-    .section{
-        float: left;
-        width: 84.5%;
-        height: 980px;
-        background-color: rgb(32, 32, 32);
     }
     .bt-config{
         background-color: transparent;
