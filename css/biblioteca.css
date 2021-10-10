@@ -475,3 +475,16 @@ progress::-webkit-progress-value {
         width: 85px;
     }
 }
+@media screen and (min-height: 657px) {
+    .nav-menu{
+        height: 587px;
+        width: 100%;
+    }
+    .nav-div{
+        width: 9%;
+        height: 587px;
+    }
+    .section{
+        height: 587px;
+    }
+}
