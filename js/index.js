@@ -5,7 +5,7 @@ const pb = document.getElementById("player-bar")
 const musicTitle = document.getElementById("mt")
 const musicAuthors = document.getElementById("ma")
 const musicIcon = document.getElementById("icon")
-const url = " https://f5cb-170-238-91-210.ngrok.io"
+const url = "http://676d-170-238-90-241.ngrok.io"
 const bt_av = document.getElementById("bt-av")
 const bt_vo = document.getElementById("bt-vo")
 const date = new Date()
@@ -239,7 +239,14 @@ function secToStr(sec_num){
     var horas = Math.floor(sec_num / 3600)
     var minutos = Math.floor((sec_num- (horas * 3600)) /60)
     var segundos = sec_num - (horas * 3600) - (minutos * 60)
-    var tempo = minutos + ':' + segundos
+
+
+    if(segundos <= 10){
+        var tempo = minutos + ':' + '0' + segundos
+    }
+    if(segundos >= 10){
+        var tempo = minutos + ':' + segundos
+    }
 
     return tempo
 }
