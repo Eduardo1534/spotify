@@ -124,7 +124,6 @@ a:hover{
     padding-top: 5px;
     display: none;
     transition: 0ms;
-     padding-top: 10px;
 
 }
 #pause img{
@@ -133,7 +132,7 @@ a:hover{
 #play{
   background-color: transparent;
   border:none;
-  padding-top: 10px;
+  padding-top: 5px;
 }
 #play img{
     width: 30px;
@@ -426,11 +425,12 @@ progress::-webkit-progress-value {
         padding-top: 5px;
         display: none;
         transition: 0ms;
+        padding-top: 10px;
     
     }
     #pause img{
         width: 40px;
-        padding-top: 10px;
+
     }
     #play{
       background-color: transparent;
