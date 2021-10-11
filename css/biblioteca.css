@@ -215,6 +215,19 @@ progress::-webkit-progress-value {
         height: 553px;
     }
 }
+@media screen and (min-height: 657px) {
+    .nav-menu{
+        height: 587px;
+        width: 100%;
+    }
+    .nav-div{
+        width: 9%;
+        height: 587px;
+    }
+    .section{
+        height: 587px;
+    }
+}
 @media screen and (min-height: 969px){
     .nav-menu{
         background-color: #262a2d ;
@@ -473,18 +486,5 @@ progress::-webkit-progress-value {
     }
     .div-music-top-5 img {
         width: 85px;
-    }
-}
-@media screen and (min-height: 657px) {
-    .nav-menu{
-        height: 587px;
-        width: 100%;
-    }
-    .nav-div{
-        width: 9%;
-        height: 587px;
-    }
-    .section{
-        height: 587px;
     }
 }

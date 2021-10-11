@@ -273,7 +273,9 @@ progress::-webkit-progress-value {
 .div-music-top-5 img {
     width: 85px;
 }
-
+.div-lista{
+    display: none;
+}
 @media screen and (min-height: 600px){
     .nav-menu{
         height: 553px;
@@ -285,7 +287,20 @@ progress::-webkit-progress-value {
         height: 553px;
     }
 }
-@media screen and (min-height: 969px){
+@media screen and (min-height: 657px) {
+    .nav-menu{
+        height: 587px;
+        width: 100%;
+    }
+    .nav-div{
+        width: 9%;
+        height: 587px;
+    }
+    .section{
+        height: 587px;
+    }
+}
+@media screen and (min-width: 1920px){
     .nav-menu{
         background-color: #262a2d ;
         width: 100%;
@@ -346,11 +361,7 @@ progress::-webkit-progress-value {
         float: left;
     
     }
-    .nav-div{
-        width: 15.5%;
-        height: 70%;
-        float: left;
-    }
+
     .div-music-icon{
         padding-left: 6px;
         padding-top: 6px;
@@ -543,18 +554,5 @@ progress::-webkit-progress-value {
     }
     .div-music-top-5 img {
         width: 85px;
-    }
-}
-@media screen and (min-height: 657px) {
-    .nav-menu{
-        height: 587px;
-        width: 100%;
-    }
-    .nav-div{
-        width: 9%;
-        height: 587px;
-    }
-    .section{
-        height: 587px;
     }
 }

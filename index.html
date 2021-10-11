@@ -18,9 +18,9 @@
             </div>
     
             <ul class="menu-principal">
-                <li><a href="./index.html"> <img src="./img/icone-1.png" > &nbsp; Inicio</a></li>
+                <li><a onclick="index()"> <img src="./img/icone-1.png" > &nbsp; Inicio</a></li>
                 <li><a href=""><img src="./img/icone-2.png"> &nbsp; Buscar</a></li>
-                <li><a href="./biblioteca.html"><img src="./img/icone3.png"> &nbsp;Sua biblioteca</a></li>
+                <li><a onclick="biblioteca()"><img src="./img/icone3.png"> &nbsp;Sua biblioteca</a></li>
             </ul>
 
             <ul class="menu-secundario">
@@ -32,7 +32,7 @@
     </div>
     <section class="section">
 
-        <div class="div-principal-section">
+        <div id="cps" class="div-principal-section">
               <p class="titulo-div-section" id="title-div"></p>
               <div class="div-music-top-0">
                 <img src="./icon/abbey road album.png" alt="" srcset="">
@@ -53,8 +53,12 @@
                 <img src="./icon/jazz album.png" alt="" srcset="">
             </div>
         </div>
-        
-        <button class="bt-config"><img src="./img/config.png" alt="" srcset=""></button>
+
+       
+        <div id="div-lista">
+
+        </div>
+         <button class="bt-config"><img src="./img/config.png" alt="" srcset=""></button>
     </section>
     <footer class="foot-player" >
         <div class="div-music-icon">

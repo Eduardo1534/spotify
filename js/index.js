@@ -5,7 +5,7 @@ const pb = document.getElementById("player-bar")
 const musicTitle = document.getElementById("mt")
 const musicAuthors = document.getElementById("ma")
 const musicIcon = document.getElementById("icon")
-const url = "https://cae9-170-238-91-210.ngrok.io"
+const url = "https://676d-170-238-90-241.ngrok.io"
 const bt_av = document.getElementById("bt-av")
 const bt_vo = document.getElementById("bt-vo")
 const date = new Date()
@@ -26,6 +26,20 @@ if (i === null){
 
 //index.html
 
+
+function biblioteca(){
+    let lista = document.getElementById("div-lista")
+    let cps = document.getElementById("cps")
+    cps.style.display = 'none'
+    lista.style.display = "inline"
+    
+}
+function index(){
+    let lista = document.getElementById("div-lista")
+    let cps = document.getElementById("cps")
+    cps.style.display = 'inline'
+    lista.style.display = "none"
+}
 try{
     if(hora >= 18){
         titlediv.innerHTML = "Boa noite"
@@ -44,6 +58,8 @@ try{
 
 
 //get
+
+
 axios({
     method:"get",
     url: url + "/playlists/playlist"
@@ -251,7 +267,6 @@ function secToStr(sec_num){
     return tempo
 }
 //bibliteca.html
-
 let lista = document.querySelector("#div-lista")
 
 for(var a = 0; i < playlist.length; a++){
