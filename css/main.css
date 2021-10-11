@@ -319,15 +319,7 @@ progress::-webkit-progress-value {
     }
 }
 @media screen and (min-width: 1920px){
-    .nav-menu{
-        background-color: #262a2d ;
-        width: 100%;
-        height: 586px;
-        transition: 800ms;
-     
-       
-    }
-    
+
     .logo-spotify-open{
         padding-left: 15px ;
         padding-top: 20px;
@@ -335,12 +327,12 @@ progress::-webkit-progress-value {
     }
     .menu-principal{
         padding-left: 20px;
-        height: 15%;
+        height: 20%;
         float: left;
      
     }
     .menu-principal li{
-        font-size: 18px;
+        font-size: 20px;
         padding: 5px;
         font-family: arial;
     }
@@ -358,7 +350,7 @@ progress::-webkit-progress-value {
         font-family: arial;
         padding: 4px;
         padding-bottom: 7px;
-        font-size: 18px;
+        font-size: 20px;
     }
     
     .nav-menu{
@@ -366,11 +358,12 @@ progress::-webkit-progress-value {
         width: 100%;
     }
     .nav-div{
-        width: 9%;
+        width: 12%;
         height: 868px;
     }
     .section{
         height: 868px;
+        width: 88%;
     }
     .foot-player{
         background-color: #2e3336 ;
@@ -382,7 +375,7 @@ progress::-webkit-progress-value {
 
     .div-music-icon{
         padding-left: 6px;
-        padding-top: 6px;
+        padding-top: 10px;
         padding-right: 6px;
         float: left;
         width: 80px;
@@ -392,18 +385,18 @@ progress::-webkit-progress-value {
     }
     
     .div-music-title{
-       padding-top: 19px;
+       padding-top: 30px;
        float: left;
-       width: 30%;
+       width: 32%;
     }
     .music-title a{
         font-family: Arial;
-        font-size: 18px;
+        font-size: 20px;
         color:whitesmoke; 
     }
     .music-autors{
         font-family: Arial;
-        font-size: 14px;
+        font-size: 18px;
     }
     .music-title a:hover{
         border-bottom: whitesmoke 1px solid;
@@ -414,8 +407,8 @@ progress::-webkit-progress-value {
     }
     .div-player-bt{
         float: left;
-        padding-left: 270px;
-        width: 30%;
+        width: 35%;
+        padding-left: 240px;
     }
     #bt-av{
         background-color: transparent;
@@ -436,11 +429,12 @@ progress::-webkit-progress-value {
     }
     #pause img{
         width: 40px;
+        padding-top: 10px;
     }
     #play{
       background-color: transparent;
       border:none;
-      padding-top: 5px;
+      padding-top: 10px;
     }
     #play img{
         width: 40px;
@@ -450,17 +444,18 @@ progress::-webkit-progress-value {
         border:none;
         transition: 0ms;
         width: 18px;
+
     }
     #bt-vo img{
         width: 18px;
+
     }
     .div-player-bar{
-        padding-left: 24px;
         float: left;   
     }
     progress{
         width: 480px;
-        height: 8px;
+        height: 10px;
         background: gray;
         transition: 800ms;
         
