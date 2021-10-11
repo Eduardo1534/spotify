@@ -95,10 +95,9 @@ axios({
         musicIcon.src = playlist[i].icon
         musicTitle.style.color = "whitesmoke"
         musicTitle.style.fontFamily = "arial"
-        musicAuthors.style.color = "whitesmoke"
+        musicAuthors.style.color = "grey"
         musicAuthors.style.fontFamily = "arial"
-        musicTitle.style.fontSize = "14px"
-        musicAuthors.style.fontSize = "10px"
+
         localStorage.setItem('u', i)
     }
 //trocar de musica
@@ -142,10 +141,8 @@ bt_av.addEventListener('click', function(){
         musicIcon.src = playlist[i].icon
         musicTitle.style.color = "whitesmoke"
         musicTitle.style.fontFamily = "arial"
-        musicAuthors.style.color = "whitesmoke"
+        musicAuthors.style.color = "grey"
         musicAuthors.style.fontFamily = "arial"
-        musicTitle.style.fontSize = "14px"
-        musicAuthors.style.fontSize = "10px"
         localStorage.setItem('u', i)
     }
     
@@ -179,10 +176,8 @@ bt_vo.addEventListener('click', function(){
         musicIcon.src = playlist[i].icon
         musicTitle.style.color = "whitesmoke"
         musicTitle.style.fontFamily = "arial"
-        musicAuthors.style.color = "whitesmoke"
+        musicAuthors.style.color = "grey"
         musicAuthors.style.fontFamily = "arial"
-        musicTitle.style.fontSize = "14px"
-        musicAuthors.style.fontSize = "10px"
         pb.style.paddingLeft = "2px"
 
 
@@ -222,10 +217,9 @@ function proximo(){
         musicIcon.src = playlist[i].icon
         musicTitle.style.color = "whitesmoke"
         musicTitle.style.fontFamily = "arial"
-        musicAuthors.style.color = "whitesmoke"
+        musicAuthors.style.color = "grey"
         musicAuthors.style.fontFamily = "arial"
-        musicTitle.style.fontSize = "14px"
-        musicAuthors.style.fontSize = "10px"
+
         localStorage.setItem('u', i)
     }
     

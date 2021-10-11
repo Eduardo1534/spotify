@@ -87,6 +87,7 @@ a:hover{
    padding-top: 19px;
    float: left;
    width: 26%;
+   font-size: 14px;
 }
 .music-title a{
     font-family: Arial;
@@ -95,7 +96,7 @@ a:hover{
 }
 .music-autors{
     font-family: Arial;
-    font-size: 10px;
+    font-size: 12px;
 }
 .music-title a:hover{
     border-bottom: whitesmoke 1px solid;
@@ -389,14 +390,15 @@ progress::-webkit-progress-value {
        float: left;
        width: 32%;
     }
-    .music-title a{
+    .music-title {
         font-family: Arial;
-        font-size: 20px;
+        font-size: 18px;
         color:whitesmoke; 
     }
     .music-autors{
         font-family: Arial;
-        font-size: 18px;
+        font-size: 16px;
+        color: gray;
     }
     .music-title a:hover{
         border-bottom: whitesmoke 1px solid;
