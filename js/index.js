@@ -21,25 +21,30 @@ if (i === null){
 
 
 //bibliteca.html
+function biblioteca(){
+    let lista = document.getElementById("div-lista")
+    let dps = document.getElementById("dps")
+    dps.style.display = 'none'
+    lista.style.display = "inline"
 
+
+
+}
+
+    
+
+function index(){
+    let lista = document.getElementById("div-lista")
+    let dps = document.getElementById("dps")
+    dps.style.display = 'inline'
+    lista.style.display = "none"
+}
 
 
 //index.html
 
 
-function biblioteca(){
-    let lista = document.getElementById("div-lista")
-    let cps = document.getElementById("cps")
-    cps.style.display = 'none'
-    lista.style.display = "inline"
-    
-}
-function index(){
-    let lista = document.getElementById("div-lista")
-    let cps = document.getElementById("cps")
-    cps.style.display = 'inline'
-    lista.style.display = "none"
-}
+
 try{
     if(hora >= 18){
         titlediv.innerHTML = "Boa noite"
@@ -267,9 +272,8 @@ function secToStr(sec_num){
     return tempo
 }
 //bibliteca.html
-let lista = document.querySelector("#div-lista")
-
 for(var a = 0; i < playlist.length; a++){
+    let lista = document.getElementById("div-lista")
     let div = document.createElement("div")
     div.setAttribute('id','div'+ a)
     lista.appendChild(div)
@@ -326,7 +330,23 @@ for(var a = 0; i < playlist.length; a++){
     div_pai.appendChild(p_update)
     div_pai.appendChild(p_authors)
 
+
+    div.style.paddingLeft = "50px"
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }).catch( error =>{

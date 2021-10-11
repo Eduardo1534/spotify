@@ -173,11 +173,31 @@ progress::-webkit-progress-value {
     color: #afafaf;
     padding-left: 5px;
 }
+#div-lista{
+    display: none;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+
+}
+
+
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background:rgb(32, 32, 32) ;
+}
+::-webkit-scrollbar-thumb{
+    background: #afafaf;
+}
 .section{
     float: left;
     width: 84.5%;
     height: 586px;
     background-color: rgb(32, 32, 32);
+    overflow-y: scroll;
 }
 .bt-config{
     background-color: transparent;
@@ -273,9 +293,7 @@ progress::-webkit-progress-value {
 .div-music-top-5 img {
     width: 85px;
 }
-.div-lista{
-    display: none;
-}
+
 @media screen and (min-height: 600px){
     .nav-menu{
         height: 553px;
